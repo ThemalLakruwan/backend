@@ -38,7 +38,7 @@ interface UserBasicInfo {
 
   app.use(
     cors({
-      origin: "http://localhost:3000",
+      origin: "https://ireport-deploy.vercel.app/",
       credentials: true,
     })
   );
